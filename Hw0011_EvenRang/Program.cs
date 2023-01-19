@@ -5,7 +5,7 @@
 Console.Clear();
 Console.Write("Введите любое число: ");//Запрос числа
 int N = Convert.ToInt32(Console.ReadLine());//Ввод числа
-Console.Write($"Все четные числа от 1 до {N}: ");
+Console.Write($"Все четные числа от 1 до {N}: ");//Вывод сообщения
 for (int i = 1; i <= N; i++)
 {
     if (i % 2 == 0)
