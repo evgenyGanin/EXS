@@ -15,5 +15,5 @@ Console.WriteLine(num1 / num2);
 // string - строка
 // bool - ложь и истина (true, false)
 
-// //Случайности
-// new Random().Next(min, max);
+//Случайности
+new Random().Next(min, max); 
