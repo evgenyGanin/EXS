@@ -1,2 +1,49 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// // ЗАДАЧА 2: Напишите программу, которая 
+// // на вход принимает два числа и выдает, 
+// // какое число больше, а какое меньше.
+// // a = 5; b = 7 -> max = 7
+// // a = 2 b = 10 -> max = 10
+// // a = -9 b = -3 -> max = -3
+
+// // ПЛАН РЕШЕНИЯ:
+// // 1. Начало (очистка консоли)
+// // 2. Запрос и прием 1 числа
+// // 3. Запрос и прием 2 числа
+// // 4. Сравнение числа 1 и 2
+// // 5. Если 1 число больше 2 - вывод в консоль 1 числа
+// // 6. Если 1 число меньше 2 - вывод в консоль 2 числа
+// // 7. Конец
+
+Console.Clear();//очистка консоли
+
+Console.Write("Введите первое число: ");//Запрос первого числа
+int num1 = Convert.ToInt32(Console.ReadLine());//Ввод первого числа
+Console.Write("Введите второе число: ");//Запрос второго числа
+int num2 = Convert.ToInt32(Console.ReadLine());//Ввод второго числа
+    
+if (num1 > num2) //Сравнение введенных чисел
+{
+    System.Console.Write("Результат сравнения: ");//Начало строки вывода сравнения
+    System.Console.Write(num1);//первое число
+    System.Console.Write(" > ");//больше
+    System.Console.Write(num2);//второго числа
+}
+else//иначе
+{
+    if (num1 == num2)
+    {
+        System.Console.Write("Введенные числа равны: ");//Начало строки вывода
+        System.Console.Write(num2);//второе число
+        System.Console.Write(" = ");//равно
+        System.Console.Write(num1);//первому числу
+    }
+    else
+    {
+    System.Console.Write("Результат сравнения: ");//Начало строки вывода
+    System.Console.Write(num2);//второе число
+    System.Console.Write(" > ");//больше
+    System.Console.Write(num1);//первого числа
+    }
+}
+
+
