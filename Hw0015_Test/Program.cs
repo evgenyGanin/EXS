@@ -16,23 +16,6 @@ else
     // System.Console.WriteLine("У данного числа нет третей цифры, введите другое...");
     System.Console.WriteLine($"Третья цифра числа {NumR} это {NumT[2]}");
 }
-
-
-
-// // // System.Console.WriteLine((NumR/100)+100+NumR%100);
-// // string Central = NumR.ToString();
-
-// // if (NumR < 3) 
-// // {
-// //     System.Console.WriteLine($"{Central[3]}");
-// // }
-// // else
-// // {
-// //     if(NumR > 999)
-// //     {
-// //         System.Console.WriteLine("Третьей цифры нет");
-// //     }
-// // // }
 // // -------------------------------------------------------
 System.Console.WriteLine($"Введите цифру {NumT[2]}, чтобы проверить - рабочим ли будет день недели, равный значению {NumT[2]} ");
 int day = Convert.ToInt32(Console.ReadLine());
