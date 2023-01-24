@@ -1,4 +1,4 @@
-﻿//ТЕСТОВОЕ СОВМЕЩЕНИЕ 2х ЗАДАЧ
+﻿//ТЕСТОВОЕ СОВМЕЩЕНИЕ 2х ЗАДАЧ 
 
 Console.Clear();
 
@@ -9,11 +9,9 @@ string NumT = NumR.ToString();
 if (NumR > 1 && NumR < 100)
 {
     System.Console.WriteLine("У данного числа нет третей цифры. Сгенерируйте другое число...");
-    // System.Console.WriteLine($"Третья цифра числа {NumR} - {NumT[2]}");
 }
 else
 {
-    // System.Console.WriteLine("У данного числа нет третей цифры, введите другое...");
     System.Console.WriteLine($"Третья цифра числа {NumR} это {NumT[2]}");
 }
 // // -------------------------------------------------------
