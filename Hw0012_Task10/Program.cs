@@ -5,7 +5,7 @@
 // 456 -> 5
 // 782 -> 8
 // 918 -> 1
-
+Console.Clear();
 System.Console.WriteLine("Введите трехзначное число: ");
 int Num = Convert.ToInt32(Console.ReadLine());
 
